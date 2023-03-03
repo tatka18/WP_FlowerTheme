@@ -1,0 +1,24 @@
+.registration-form-container{
+    padding: 20px 40px;
+    max-width: 900px;
+    background-color: rgba(118,70,163,0.03);
+    z-index: 2;
+}
+.reg-button{
+    line-height: 1em;
+    cursor: pointer;
+    border-width: 1px;
+    text-decoration: none;
+    border-radius: 0;
+    background-color: rgba(177, 96, 244, 0.11);
+    padding: 12px 38px 11px;
+}
+.reg-button-text{
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    line-height: 2em;
+    color: black;
+    vertical-align: middle;
+}

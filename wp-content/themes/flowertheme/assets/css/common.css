@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.body-class {
+    font-family: Catamaran, sans-serif;
+    font-size: 16px;
+    line-height: 1.625em;
+    font-weight: 400;
+    color: #2d2d28;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+.common-container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+ul, ol, li, a {
+    text-decoration: none;
+    list-style: none;
+    color: #0c0c0c;
+}
+
+h1 {
+    font-family: Merriweather, serif;
+    font-weight: 400;
+    color: #060606;
+    font-size: 50px;
+    line-height: 1.2em;
+    margin: 25px 0;
+    word-wrap: break-word;
+}
+
+h3 {
+    font-family: Merriweather, serif;
+    font-weight: 400;
+    color: #060606;
+    font-size: 23px;
+    line-height: 1.48em;
+}
+
+p {
+    text-align: justify;
+}

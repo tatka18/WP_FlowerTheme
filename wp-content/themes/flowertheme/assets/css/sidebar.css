@@ -1,0 +1,14 @@
+/*Sidebar*/
+
+#today {
+    background-color: rgba(177, 96, 244, 0.11);
+}
+
+.wp-calendar-table caption {
+    font-weight: 600;
+    background-color: rgba(177, 96, 244, 0.20);
+}
+
+.wp-calendar-table a {
+    color: rgba(177, 96, 244, 0.70);
+}

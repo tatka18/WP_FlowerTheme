@@ -1,0 +1,27 @@
+/*Footer*/
+
+.footer {
+    position: relative;
+    max-width: 100%;
+}
+
+.footer-container {
+    width: 100%;
+    padding: 3px 0;
+    justify-content: space-between;
+    display: flex;
+}
+
+.footer-item {
+    display: flex;
+}
+
+.footer-copyright a {
+    align-items: center;
+    padding: 0 3px;
+}
+
+.footer-primary-menu {
+    display: flex;
+    justify-content: center;
+}

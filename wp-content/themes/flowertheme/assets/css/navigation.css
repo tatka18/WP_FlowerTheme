@@ -1,0 +1,88 @@
+/*Navigation*/
+
+.header-nav-menu-container {
+    font-size: 13px;
+    padding: 0;
+    display: flex;
+    border-top: 1px solid #ebdefc;
+    border-bottom: 1px solid #ebdefc;
+}
+
+.header-navigation {
+    height: 100%;
+    display: block;
+}
+
+.checkbox-toggle-menu {
+    display: none;
+}
+
+.toggleMenu, .hideMenu {
+    display: none;
+}
+
+.primary-menu-navigation {
+    padding: 0;
+    display: flex;
+    z-index: 12;
+    height: 100%;
+}
+
+.primary-menu-navigation > ul {
+    display: flex;
+    position: relative;
+    height: 100%;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.primary-menu-navigation > ul li {
+    position: relative;
+    margin: 0 18px;
+    height: 100%;
+}
+
+.primary-menu-navigation > ul li a {
+    display: flex;
+    position: relative;
+    text-transform: uppercase;
+    align-items: center;
+    height: 100%;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: .1em;
+}
+
+
+.primary-menu-navigation li a:hover {
+    color: #7A7A7A;
+    transition: all 0.3s ease;
+}
+
+.primary-menu-navigation li > ul {
+    border: 1px solid #ded3ef;
+    background: #ffffff;
+    padding: 0;
+}
+
+.primary-menu-navigation li > ul li {
+    padding: 4px;
+}
+
+/*-------------*/
+.primary-menu-navigation li ul {
+    position: absolute;
+    min-width: 25px;
+    display: none;
+}
+
+.primary-menu-navigation li > ul li {
+    padding: 10px;
+    text-transform: none;
+}
+
+.primary-menu-navigation li:hover > ul {
+    display: inline-block;
+    vertical-align: top;
+}

@@ -1,0 +1,241 @@
+.loginform-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 111;
+    opacity: 0;
+    visibility: hidden;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: rgba(31, 31, 31, .6);
+
+    transition: all .8s ease 0s;
+}
+
+.loginform-container:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+.loginform-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.popup-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+}
+
+.popup:target .loginform-container {
+    /*transform: translate(0, 0);*/
+    opacity: 1;
+    transform: perspective(600px) translate(0, 0) rotateX(0);
+}
+
+.loginform-area {
+    padding: 40px;
+    width: 440px;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.loginform-fields h3 {
+    margin: 0 0 5px;
+}
+
+.form-area input {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    margin: 0 0 20px;
+    padding: 15px 26px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6b6768;
+    border: 1px solid #dddbdb;
+    border-radius: 0;
+    cursor: text;
+    background-color: transparent;
+    outline: 0;
+    font-family: inherit;
+}
+
+.prebutton-links {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 4px;
+    align-items: center;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+}
+
+.remember-me label {
+    position: relative;
+    top: 1px;
+    margin-bottom: 0;
+}
+
+.reset-password {
+    display: inline-flex;
+    position: relative;
+    font-weight: 600;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 2em;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.right-icon-back a {
+    margin-right: 10px;
+    z-index: 1;
+}
+
+.right-icon-back:after {
+    content: '';
+    height: 17px;
+    width: 27px;
+    position: absolute;
+    background-color: #be96fd;
+    right: -4px;
+    top: 3px;
+    transition: width .2s cubic-bezier(.76, .35, .32, .79);
+    z-index: 0;
+}
+
+.dashicons-arrow-right-alt {
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 5px;
+    font-weight: 400;
+    z-index: 1;
+}
+
+.dashicons-arrow-right-alt:before {
+    position: relative;
+    top: -1px;
+
+    content: '\f344';
+}
+
+.login-button {
+    line-height: 1em;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    border-radius: 0;
+    background-color: #060606;
+    padding: 12px 38px 11px;
+}
+
+.login-button:hover {
+    opacity: 80%;
+    transition: all .2s ease-out;
+}
+
+.login-button-container {
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.button-text {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .15em;
+    text-transform: uppercase;
+    line-height: 2em;
+    color: white;
+    vertical-align: middle;
+
+}
+
+.button-text:before {
+    content: '';
+    background-color: #8888bb;
+    border-radius: 50%;
+}
+
+
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    z-index: 111;
+    visibility: hidden;
+    opacity: 0;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    transition: all .8s ease 0s;
+}
+
+.popup:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup-body {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+
+.popup-content {
+    background-color: white;
+    color: #000;
+    max-width: 660px;
+    padding: 30px;
+    position: relative;
+
+    transition: all .8s ease 0s;
+    opacity: 0;
+    /*transform: translate(0, -100%);*/
+
+    transform: perspective(600px) translate(0, -100%) rotateX(45deg);
+}
+
+.popup-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+}
+
+.popup:target .popup-content {
+    /*transform: translate(0, 0);*/
+    opacity: 1;
+    transform: perspective(600px) translate(0, 0) rotateX(0);
+}
+
+.popup-area {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}

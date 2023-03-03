@@ -1,0 +1,22 @@
+.posts-link-button {
+    margin: 1.5rem;
+}
+.posts-link-button a {
+    padding: 5px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(248, 227, 125);
+    border-radius: 5px;
+    background-color: rgba(188, 109, 255, 0.32);
+    box-shadow: 0 4px 8px 0 rgba(137, 124, 149, 0.7), 0 6px 20px 0 rgba(189, 110, 255, 0.7);
+}
+
+.posts-link-button a:hover {
+    background-color: rgba(189, 110, 255, 0.2);
+}
+
+.posts-link-button-content {
+    display: flex;
+    justify-content: center;
+}

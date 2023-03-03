@@ -1,0 +1,48 @@
+/*Social*/
+
+.header-social-media-container {
+    margin-left: 24px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.social-media-inner ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.social-media-inner ul li {
+    margin: 0 5px;
+}
+
+.social-media-inner ul li a {
+    cursor: pointer;
+    display: flex;
+}
+
+.dashicons {
+    opacity: 50%;
+}
+
+.dashicons:hover {
+    opacity: 100%;
+}
+
+
+.social-media {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.social-media ul {
+    margin: 0 auto;
+}
+
+.social-media ul li {
+    display: inline-block;
+    margin: 0 5px;
+}

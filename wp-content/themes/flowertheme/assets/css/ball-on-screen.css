@@ -1,0 +1,32 @@
+/*.ball{*/
+/*    position: absolute;*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    background: #ab1dfe;*/
+/*    border-radius: 100%;*/
+/*    opacity: .5;*/
+
+/*    animation: dws-bounce 15s linear infinite,*/
+/*    dws-moveRight 50s linear infinite;*/
+/*}*/
+
+/*@keyframes dws-bounce {*/
+/*    0% {bottom: 100%; background: #bdd6f2}*/
+/*    25% {bottom: 0 ; width: 50px; height: 50px; background: #eee488*/
+/*    }*/
+/*    30% {bottom: 0 ; height: 45px; width: 52px; background: #bcde86*/
+/*    }*/
+/*    35% {bottom: 0 ; height: 50px; width: 50px; background: #f894a0*/
+/*    }*/
+/*    50% {bottom: 0 ; height: 50px; width: 50px; background: #f8b094*/
+/*    }*/
+/*    70% {bottom: 100%; background: #d998f5*/
+/*    }*/
+/*    100% {bottom: 100%; background: #7700aa;*/
+/*    }*/
+/*}*/
+
+/*@keyframes dws-moveRight {*/
+/*    from {left: 0;}*/
+/*    to {left: 100%;}*/
+/*}*/
